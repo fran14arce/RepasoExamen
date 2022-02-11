@@ -7,7 +7,7 @@ class Titulo extends React.Component {
 
   render() {
     return (
-      <nav>
+      <div>
         <h1>Desarrollo de Interfaces: Examen React.js </h1>
         <p>
           Resuelve los ejercicios propuestos en los distintos apartados de la
@@ -16,7 +16,9 @@ class Titulo extends React.Component {
           tener el nombre examen-react-Nombre-Apellido1, donde nombre y apellido
           son los tuyos.
         </p>
-      </nav>
+      </div>
     );
   }
 }
+
+export default Titulo;

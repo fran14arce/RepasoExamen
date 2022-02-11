@@ -1,4 +1,5 @@
 import React from 'react';
+import FormularioEj2 from './FormularioEj2';
 
 class Ejercicio2 extends React.Component {
   constructor(props) {
@@ -34,6 +35,8 @@ class Ejercicio2 extends React.Component {
             </li>
           </li>
         </ul>
+
+        <FormularioEj2 />
       </div>
     );
   }
