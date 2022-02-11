@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { BrowserRoute as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navegacion from './components/Navegacion';
 import { Ejercicios } from './data/Ejercicios';
 
